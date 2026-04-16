@@ -2,9 +2,303 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 7afeae28-8837-445b-b53a-5d89eb16eb45)
+	(uuid "7afeae28-8837-445b-b53a-5d89eb16eb45")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 85.09 86.36)
+		(size 22.86 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "043c7265-3b77-421f-95b4-736198765ff0")
+		(property "Sheetname" "Display"
+			(at 85.09 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 85.09 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 128.27)
+		(size 24.13 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8cb48dee-3dfb-4aba-b1ae-e8d766868ca5")
+		(property "Sheetname" "IO expander"
+			(at 190.5 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io-expander.kicad_sch"
+			(at 190.5 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 33.02)
+		(size 45.72 100.33)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0d0c4c9-6521-4884-a536-44337cc7e98f")
+		(property "Sheetname" "MPU"
+			(at 129.54 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mpu.kicad_sch"
+			(at 129.54 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 33.02)
+		(size 24.13 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2e22041-582b-4679-ad4a-a125db87de65")
+		(property "Sheetname" "USB C DRP"
+			(at 82.55 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-c-drp.kicad_sch"
+			(at 82.55 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 93.98)
+		(size 36.83 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb250b4f-c5d5-46d6-a17d-e2b7a9711818")
+		(property "Sheetname" "Power & Decoupling"
+			(at 190.5 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power-decoupling.kicad_sch"
+			(at 190.5 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 125.73)
+		(size 17.78 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc5d602b-cd60-40f3-b6ce-866979f4c9ac")
+		(property "Sheetname" "DDR3L"
+			(at 88.9 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr3l.kicad_sch"
+			(at 88.9 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 34.29)
+		(size 35.56 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe2e3118-e394-4128-93ab-3d29e7bd3fe9")
+		(property "Sheetname" "WLAN & Bluetooth (ESP32)"
+			(at 189.23 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wlan-and-ble.kicad_sch"
+			(at 189.23 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
