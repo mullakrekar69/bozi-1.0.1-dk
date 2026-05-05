@@ -2166,7 +2166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e3a482-e9f7-4ec6-8091-ed6e391d1163")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0107"
 			(at 207.01 107.95 0)
 			(effects
 				(font
@@ -2216,7 +2216,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "#PWR0113")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -2232,7 +2232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "053adc90-791b-4f6f-886c-b1d87ce734ac")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 156.21 99.06 90)
 			(effects
 				(font
@@ -2384,6 +2384,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 156.21 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05aa6341-024d-4f70-8352-4f40c64239b0")
 		)
@@ -2393,7 +2402,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2409,7 +2418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44ea49ae-7677-4d08-bc3d-b136e5c1c964")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0110"
 			(at 160.02 130.81 0)
 			(effects
 				(font
@@ -2460,7 +2469,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "#PWR093")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bda2c28-fffa-4e49-b28e-47a818433089")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0108"
 			(at 107.95 110.49 0)
 			(effects
 				(font
@@ -2528,7 +2537,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "#PWR091")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -2544,7 +2553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "576e9650-9ff3-40b1-ad4c-6a3dba007780")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0104"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -2596,7 +2605,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "#PWR089")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2612,7 +2621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62038473-b232-4c5d-bebe-4f5cab0197aa")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0106"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -2663,7 +2672,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "#PWR0114")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -2818,7 +2827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "747f0d38-968d-47e8-b6a7-e6952edb3e5c")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0109"
 			(at 138.43 124.46 0)
 			(effects
 				(font
@@ -2869,7 +2878,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "#PWR092")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2885,7 +2894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81be72e1-b236-425d-8708-3f01c04468a1")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 108.585 66.04 0)
 			(effects
 				(font
@@ -2957,6 +2966,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "880158e7-239d-4cd1-a2b7-141a32fbb77c")
 		)
@@ -3011,7 +3029,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3027,7 +3045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9c8df13-e4e9-4e58-a8fd-985a4fe07450")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 71.12 78.7399 0)
 			(effects
 				(font
@@ -3181,6 +3199,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ed6acfb-bb20-4822-8b76-a0b375e19fee")
 		)
@@ -3190,7 +3217,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3206,7 +3233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c16e198e-6739-4352-aa90-7670d8d14876")
-		(property "Reference" "C106"
+		(property "Reference" "C117"
 			(at 142.24 113.0299 0)
 			(effects
 				(font
@@ -3216,7 +3243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 142.24 115.5699 0)
 			(effects
 				(font
@@ -3360,6 +3387,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 138.43 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a7bf9b33-a616-433c-a383-ef95247b7ae4")
 		)
@@ -3369,7 +3405,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "C106")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -3385,7 +3421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0675f0e-3f24-475e-aa55-4a4603fd13d7")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 71.12 92.7099 0)
 			(effects
 				(font
@@ -3539,6 +3575,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1040627e-0b57-48e4-acda-9fc0412b4115")
 		)
@@ -3548,7 +3593,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5a3e38b-265d-4a33-bdd0-b2384e523272")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 187.325 67.31 0)
 			(effects
 				(font
@@ -3599,6 +3644,24 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with two card detection pins"
+			(at 186.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose Electric Co Ltd"
+			(at 186.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DM3AT-SF-PEJM5"
 			(at 186.69 88.9 0)
 			(effects
 				(font
@@ -3643,7 +3706,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3659,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3bade25-9570-42d1-a9f7-c27f6754d51a")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0105"
 			(at 73.66 104.14 0)
 			(effects
 				(font
@@ -3710,7 +3773,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/4209e974-b600-4026-b260-5c80dc020876"
-					(reference "#PWR090")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,19 @@
+(version 1)
+
+(rule BGA_default
+	(constraint clearance (min 0.06mm))
+	(constraint track_width (min 0.075mm))
+	(constraint hole_clearance (min 0.15mm))
+	(condition "A.intersectsArea('BGA') && A.Type != 'Zone' && B.type != 'Zone'"))
+
+(rule BGA_zone
+	(constraint clearance (min 0.06mm))
+	(constraint track_width (min 0.075mm))
+	(constraint hole_clearance (min 0.15mm))
+	(condition "A.intersectsArea('BGA') && A.Type == 'Zone'"))
+
+
+
+(rule DDR_zone
+	(constraint clearance (min 0.22mm))
+	(condition "A.intersectsArea('DDR 3 x S rule') && A.Type != 'Zone' && B.type != 'Zone'"))
