@@ -1,4 +1,4 @@
-26010671523455612
+26030226680270351
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103481,6 +103481,20 @@ Varistor VF
 2
 2
 bozi
+8552202030001101
+855-22-020-30-001101-3
+Connector
+0
+20
+20
+bozi
+8552202030001101_edit
+855-22-020-30-001101-3
+Connector
+0
+20
+20
+bozi
 2194MST
 219-4MST-1
 Switch
@@ -103557,6 +103571,13 @@ Crystal or Oscillator
 0
 2
 2
+bozi
+BGA9C40P3X3_147X145X69
+MAX17262REWL+T
+Integrated Circuit
+0
+9
+9
 bozi
 BGA96C80P9X16_800X1400X120
 96-Ball FBGA – x16 (JT)
@@ -103699,6 +103720,13 @@ TVS Diode (Uni-directional)
 2
 bozi
 ESP32C61WROOM1N8R2
+ESP32-C61-WROOM-1-N8R2-2
+Integrated Circuit
+0
+37
+37
+bozi
+ESP32C61WROOM1N8R2_edit
 ESP32-C61-WROOM-1-N8R2-2
 Integrated Circuit
 0
@@ -104020,6 +104048,13 @@ Integrated Circuit
 29
 29
 bozi
+QFN65P600X600X100-29N-D_edit
+(ML) 28-Lead 6x6mm [QFN]
+Integrated Circuit
+0
+29
+29
+bozi
 RESC1005X35N
 RT0402_1
 Resistor
@@ -104075,6 +104110,13 @@ Resistor
 0
 2
 2
+bozi
+SJ23574ASMTTR
+SJ2-3574A-SMT-TR
+Connector
+0
+4
+4
 bozi
 SOD3716X135N
 MBR0540-
@@ -104146,6 +104188,20 @@ Integrated Circuit
 9
 9
 bozi
+SON95P300X300X100-7N-D
+DFN6 (3x3)
+Integrated Circuit
+0
+7
+7
+bozi
+SOP65P490X110-9N
+DGN0008G
+Integrated Circuit
+0
+9
+9
+bozi
 SOTFL50P160X60-8N
 DRL0008A
 Integrated Circuit
@@ -104173,6 +104229,20 @@ MOSFET (N-Channel)
 0
 7
 7
+bozi
+STX3000
+STX-3000-1
+Connector
+0
+3
+3
+bozi
+THRMC1005X55N
+0402
+Thermistor
+0
+2
+2
 bozi
 TMS-102-YY-XX-S
 TMS-102-YY-XX-S
@@ -104222,3 +104292,10 @@ Connector
 0
 12
 9
+bozi
+Untitled
+
+
+0
+0
+0

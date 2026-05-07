@@ -5,26 +5,20 @@
 	(uuid "3b4f1262-8f39-423d-9698-a5807551722f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "bozi:POGO_20P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "J"
+				(at -3.81 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" ""
+				(at -3.81 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,7 +26,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at -3.81 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,8 +34,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" ""
+				(at -3.81 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -49,8 +43,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
+			(property "Description" ""
+				(at -3.81 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -58,42 +52,11 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+			(symbol "POGO_20P_0_0"
+				(pin unspecified line
+					(at -8.89 17.78 0)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -108,311 +71,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "bozi:SOLDER_PAD_16_PINS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SOLDER_PAD_16_PINS_0_0"
 				(pin unspecified line
-					(at 7.62 -1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -3.81 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -6.35 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -8.89 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -11.43 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -13.97 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -16.51 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -19.05 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -21.59 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -24.13 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -26.67 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -29.21 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -31.75 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -34.29 0)
+					(at -8.89 15.24 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -430,7 +90,151 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 -36.83 0)
+					(at -8.89 12.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 17.78 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -448,7 +252,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 -39.37 0)
+					(at 1.27 15.24 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -457,7 +261,151 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -466,10 +414,10 @@
 					)
 				)
 			)
-			(symbol "SOLDER_PAD_16_PINS_1_1"
+			(symbol "POGO_20P_1_1"
 				(rectangle
-					(start 10.16 1.27)
-					(end 15.494 -41.91)
+					(start -6.35 19.05)
+					(end -1.27 -6.35)
 					(stroke
 						(width 0)
 						(type solid)
@@ -478,177 +426,221 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start 10.16 -1.016)
-					(end 12.7 -1.524)
+				(circle
+					(center -4.826 17.78)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -3.556)
-					(end 12.7 -4.064)
+				(circle
+					(center -4.826 15.24)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -6.096)
-					(end 12.7 -6.604)
+				(circle
+					(center -4.826 12.7)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -8.636)
-					(end 12.7 -9.144)
+				(circle
+					(center -4.826 10.16)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -11.176)
-					(end 12.7 -11.684)
+				(circle
+					(center -4.826 7.62)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -13.716)
-					(end 12.7 -14.224)
+				(circle
+					(center -4.826 5.08)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -16.256)
-					(end 12.7 -16.764)
+				(circle
+					(center -4.826 2.54)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -18.796)
-					(end 12.7 -19.304)
+				(circle
+					(center -4.826 0)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -21.336)
-					(end 12.7 -21.844)
+				(circle
+					(center -4.826 -2.54)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -23.876)
-					(end 12.7 -24.384)
+				(circle
+					(center -4.826 -5.08)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -26.416)
-					(end 12.7 -26.924)
+				(circle
+					(center -2.794 17.78)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -28.956)
-					(end 12.7 -29.464)
+				(circle
+					(center -2.794 15.24)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -31.496)
-					(end 12.7 -32.004)
+				(circle
+					(center -2.794 12.7)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -34.036)
-					(end 12.7 -34.544)
+				(circle
+					(center -2.794 10.16)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -36.576)
-					(end 12.7 -37.084)
+				(circle
+					(center -2.794 7.62)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 10.16 -39.116)
-					(end 12.7 -39.624)
+				(circle
+					(center -2.794 5.08)
+					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2.794 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2.794 0)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2.794 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2.794 -5.08)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type outline)
@@ -807,7 +799,7 @@
 	)
 	(text "Backlight voltage regulator"
 		(exclude_from_sim no)
-		(at 167.64 38.1 0)
+		(at 163.83 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -817,47 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 48.26) (xy 123.19 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07a50fb6-ab2f-4347-9d6f-0091543aece0")
-	)
-	(wire
-		(pts
-			(xy 128.27 63.5) (xy 123.19 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b1df95a-32bb-4e5f-b51b-b55c4ecb7eac")
-	)
-	(wire
-		(pts
-			(xy 128.27 68.58) (xy 123.19 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dd9441a-dd3f-4f9d-89a8-57383af1cd26")
-	)
-	(wire
-		(pts
-			(xy 128.27 58.42) (xy 123.19 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f52a158-596b-4216-ad45-c9b6d8dd8ae9")
-	)
-	(wire
-		(pts
-			(xy 115.57 45.72) (xy 110.49 45.72)
+			(xy 134.62 48.26) (xy 129.54 48.26)
 		)
 		(stroke
 			(width 0)
@@ -867,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 50.8) (xy 110.49 50.8)
+			(xy 134.62 53.34) (xy 129.54 53.34)
 		)
 		(stroke
 			(width 0)
@@ -877,7 +829,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 43.18) (xy 110.49 43.18)
+			(xy 134.62 45.72) (xy 129.54 45.72)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +839,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 58.42) (xy 110.49 58.42)
+			(xy 144.78 40.64) (xy 149.86 40.64)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +849,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 40.64) (xy 110.49 40.64)
+			(xy 134.62 43.18) (xy 129.54 43.18)
 		)
 		(stroke
 			(width 0)
@@ -907,7 +859,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 38.1) (xy 110.49 38.1)
+			(xy 134.62 40.64) (xy 129.54 40.64)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +869,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 60.96) (xy 110.49 60.96)
+			(xy 144.78 58.42) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a9c478-1a18-4092-b286-fccae79a44e0")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 149.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -927,47 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 123.19 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c7690db-2172-400d-bc55-ed86d572da6b")
-	)
-	(wire
-		(pts
-			(xy 128.27 71.12) (xy 123.19 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f52b66-4240-425a-91c2-57996259ca44")
-	)
-	(wire
-		(pts
-			(xy 128.27 38.1) (xy 123.19 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f83f537-0da5-43d6-a4b3-efcbeb840231")
-	)
-	(wire
-		(pts
-			(xy 128.27 60.96) (xy 123.19 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94d46766-b310-4a23-873c-f9d08fb3d2fc")
-	)
-	(wire
-		(pts
-			(xy 115.57 48.26) (xy 110.49 48.26)
+			(xy 134.62 50.8) (xy 129.54 50.8)
 		)
 		(stroke
 			(width 0)
@@ -977,27 +899,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 123.19 45.72)
+			(xy 149.86 55.88) (xy 144.78 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd95ad4a-102b-42d1-86f1-2e9c654cb08b")
+		(uuid "ace51ec9-41cd-4faa-9c77-ffe05b62732d")
 	)
 	(wire
 		(pts
-			(xy 128.27 55.88) (xy 123.19 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be7b5f64-e34c-438e-a3f0-41239a09014e")
-	)
-	(wire
-		(pts
-			(xy 115.57 55.88) (xy 110.49 55.88)
+			(xy 134.62 58.42) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1007,17 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 43.18) (xy 123.19 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d32516bc-fd96-40d4-bab1-b1200bc1a186")
-	)
-	(wire
-		(pts
-			(xy 115.57 66.04) (xy 110.49 66.04)
+			(xy 144.78 48.26) (xy 149.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 63.5) (xy 110.49 63.5)
+			(xy 144.78 45.72) (xy 149.86 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1037,17 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 50.8) (xy 123.19 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db946aed-8cc7-425c-a317-4f0be09ef66a")
-	)
-	(wire
-		(pts
-			(xy 115.57 53.34) (xy 110.49 53.34)
+			(xy 134.62 55.88) (xy 129.54 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1057,27 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 53.34) (xy 123.19 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec2b1412-c38b-4a85-80e7-1065a7ef58e7")
-	)
-	(wire
-		(pts
-			(xy 128.27 40.64) (xy 123.19 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee78d357-1dc4-4acd-91db-9f9b17187cc9")
-	)
-	(wire
-		(pts
-			(xy 115.57 71.12) (xy 110.49 71.12)
+			(xy 144.78 53.34) (xy 149.86 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 68.58) (xy 110.49 68.58)
+			(xy 144.78 50.8) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1095,9 +967,20 @@
 		)
 		(uuid "fdc7ccd6-8493-404b-8106-dfe91d707419")
 	)
+	(hierarchical_label "LCD_GPIO1"
+		(shape input)
+		(at 149.86 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00dbaaf0-bc42-47cc-b914-d1099532a94f")
+	)
 	(hierarchical_label "LCD_DAT0"
 		(shape input)
-		(at 110.49 55.88 180)
+		(at 129.54 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1108,7 +991,7 @@
 	)
 	(hierarchical_label "LCD_DAT4"
 		(shape input)
-		(at 110.49 45.72 180)
+		(at 129.54 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1119,7 +1002,7 @@
 	)
 	(hierarchical_label "LCD_DAT2"
 		(shape input)
-		(at 110.49 50.8 180)
+		(at 129.54 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1130,7 +1013,7 @@
 	)
 	(hierarchical_label "LCD_DAT5"
 		(shape input)
-		(at 110.49 43.18 180)
+		(at 129.54 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1141,18 +1024,18 @@
 	)
 	(hierarchical_label "LCD_D{slash}CX"
 		(shape input)
-		(at 110.49 63.5 180)
+		(at 149.86 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "96c29ef8-7f47-4f0c-8987-0a275fc287d3")
 	)
 	(hierarchical_label "LCD_DAT6"
 		(shape input)
-		(at 110.49 40.64 180)
+		(at 129.54 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1163,7 +1046,7 @@
 	)
 	(hierarchical_label "LCD_DAT7"
 		(shape input)
-		(at 110.49 38.1 180)
+		(at 129.54 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1174,29 +1057,29 @@
 	)
 	(hierarchical_label "LCD_WRX"
 		(shape input)
-		(at 110.49 60.96 180)
+		(at 149.86 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ab01f125-efc2-4b2d-bde2-b9e6ae81cdaf")
 	)
 	(hierarchical_label "LCD_TE"
 		(shape input)
-		(at 110.49 68.58 180)
+		(at 149.86 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b6f59c12-d3a2-4f1f-81db-860bdf966b3b")
 	)
 	(hierarchical_label "LCD_DAT1"
 		(shape input)
-		(at 110.49 53.34 180)
+		(at 129.54 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1205,20 +1088,31 @@
 		)
 		(uuid "b749a3c7-dead-40cd-9ad6-f6168d39e8d6")
 	)
-	(hierarchical_label "LCD_RDX"
+	(hierarchical_label "LCD_GPIO0"
 		(shape input)
-		(at 110.49 58.42 180)
+		(at 149.86 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "c134ad64-da63-45bd-a507-686784b852d6")
+	)
+	(hierarchical_label "LCD_RDX"
+		(shape input)
+		(at 149.86 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "c43eda92-259d-4291-80cd-7ec5c4791a70")
 	)
 	(hierarchical_label "LCD_DAT3"
 		(shape input)
-		(at 110.49 48.26 180)
+		(at 129.54 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1229,501 +1123,56 @@
 	)
 	(hierarchical_label "LCD_RESX"
 		(shape input)
-		(at 110.49 71.12 180)
+		(at 149.86 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "dc0fc92b-be68-4f9c-8faa-be225f875180")
 	)
 	(hierarchical_label "LCD_CSX"
 		(shape input)
-		(at 110.49 66.04 180)
+		(at 149.86 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fc029864-ee97-4508-831f-29544911de6c")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 119.38 63.5 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "025faa43-39cc-4f85-8eef-de62e8afa6df")
-		(property "Reference" "R58"
-			(at 116.84 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 123.19 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "815f65fc-6ad1-41a8-81b0-e7898cc93fe2")
-		)
-		(pin "2"
-			(uuid "266f5725-1731-483a-8345-44a52387872c")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 38.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06be7604-f7fb-4c79-9794-6b1707079aeb")
-		(property "Reference" "R48"
-			(at 116.84 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 123.19 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5401ef0a-5a22-4d0e-badc-1dd06b562ae4")
-		)
-		(pin "2"
-			(uuid "894590b5-e33b-4c77-9a4f-af5b1e807fd9")
-		)
-		(instances
-			(project ""
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 66.04 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0855d15d-81c8-4541-a324-926f46bc4049")
-		(property "Reference" "R59"
-			(at 116.84 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 111.76 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4366dbad-104e-4ab9-9c42-99a5a9056a30")
-		)
-		(pin "2"
-			(uuid "58399bd1-c7ce-43ed-8f06-2127bc33000a")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 68.58 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d110ded-5426-43bb-a428-64e16604b8c2")
-		(property "Reference" "R60"
-			(at 116.84 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 123.19 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b696d34b-abb2-4a5a-9685-6ce2f6e38ce4")
-		)
-		(pin "2"
-			(uuid "5526549d-6a88-493c-a3bf-f11e29009210")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 45.72 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2381636b-e21a-4204-bec5-87aa867ac799")
-		(property "Reference" "R51"
-			(at 116.84 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 111.76 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a368d9d-0d40-4049-a3b9-596f4526227c")
-		)
-		(pin "2"
-			(uuid "52e06214-a3ca-471b-b959-8445e83a566f")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bozi:SOLDER_PAD_16_PINS")
-		(at 120.65 34.29 0)
+		(lib_id "power:GNDREF")
+		(at 134.62 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "298b6a30-1e76-407e-8c87-19f2c8e96946")
-		(property "Reference" "J6"
-			(at 137.16 53.3399 0)
+		(uuid "47fc08ba-d38c-4b17-94f4-a62d05f05c46")
+		(property "Reference" "#PWR098"
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "16 PIN SOLDER PIN"
-			(at 137.16 55.8799 0)
+		(property "Value" "GNDREF"
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 34.29 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1181,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 34.29 0)
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c25f2215-d6df-4f99-8c61-821f73240646")
+		)
+		(instances
+			(project ""
+				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bozi:POGO_20P")
+		(at 143.51 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acbf2abc-d961-458e-829d-e00a5943557e")
+		(property "Reference" "J2"
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POGO header display"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bozi:8552202030001101_edit"
+			(at 139.7 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 34.29 0)
+			(at 139.7 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,236 +1263,88 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "76044f81-39e7-4894-a294-2fc69130cd4e")
+		(property "Manufacturer_Name" "Mill-Max Manufacturing Corp."
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "8"
-			(uuid "bf0c03e6-c119-42ef-81d9-ba4cd81b9255")
-		)
-		(pin "4"
-			(uuid "9c604e04-5a2c-48ea-b298-b0422dc9a093")
-		)
-		(pin "1"
-			(uuid "284808d0-c2bc-4282-9988-cf5f09d7d3f4")
-		)
-		(pin "7"
-			(uuid "3cd7b6cb-f747-4b95-931c-0abba760e3f9")
-		)
-		(pin "2"
-			(uuid "45ce3f85-4e98-4508-8d3d-22710b73d37c")
-		)
-		(pin "5"
-			(uuid "de0eda6c-5a9f-474f-9e7a-bdd1f1b20559")
-		)
-		(pin "6"
-			(uuid "2e707121-6a63-4c73-bc43-64b0d65cf514")
-		)
-		(pin "3"
-			(uuid "bad5dd83-f7f1-4a2b-a537-4b4777510439")
-		)
-		(pin "14"
-			(uuid "f57368e8-08ce-4e74-81bf-dcabb1ccffb9")
-		)
-		(pin "12"
-			(uuid "a50ce5fe-1dcb-4859-80b4-a9cfa27e6a2c")
-		)
-		(pin "13"
-			(uuid "f584ca86-c527-4cfd-b927-9733ed41dfbc")
+		(property "Manufacturer_Part_Number" "855-22-020-30-001101"
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "15"
-			(uuid "a51732b9-5e96-40e9-8d28-ca15469cf303")
+			(uuid "5dde4c96-0c15-431d-80b3-5ded0f15bfa6")
 		)
-		(pin "16"
-			(uuid "9f68bf8f-1c08-4564-b15d-5dda1df1622d")
+		(pin "1"
+			(uuid "208a8dc5-19fb-46dd-8655-cc0a7f19e79e")
 		)
-		(pin "11"
-			(uuid "ba896ea3-3e05-4452-8191-f17562e02211")
+		(pin "17"
+			(uuid "f9bbca01-9d93-4d8f-b478-b9af8e095073")
+		)
+		(pin "20"
+			(uuid "0e6b6a19-7876-4c9d-af71-26144809a2e5")
+		)
+		(pin "5"
+			(uuid "91fe5784-c7c5-4311-9c92-a9922566b8a5")
+		)
+		(pin "7"
+			(uuid "777a37db-0b92-4b25-9abe-1f9567a15208")
 		)
 		(pin "10"
-			(uuid "49d7adf7-f1f6-46e1-a46e-d3408e4e517a")
+			(uuid "58dbf34e-6341-4075-a230-929e5864345b")
+		)
+		(pin "2"
+			(uuid "596a39b1-f49b-4e1a-9afb-307df2ecc692")
+		)
+		(pin "4"
+			(uuid "d22b10b8-5982-456e-a1e3-edc84e59dfb1")
+		)
+		(pin "12"
+			(uuid "cfd33f77-89f4-4d8f-8a21-8070f372aeec")
+		)
+		(pin "19"
+			(uuid "2fbf97a7-34bf-4bd2-928f-9a7d98d93f53")
+		)
+		(pin "16"
+			(uuid "c712e30a-09ae-44c7-bfcb-9e01a93c726a")
+		)
+		(pin "13"
+			(uuid "b5e567da-66a1-4b46-9804-6431278b8dee")
+		)
+		(pin "18"
+			(uuid "eec90593-49b3-41ae-8c29-3bf20600c5eb")
+		)
+		(pin "3"
+			(uuid "c5e4172c-fc86-446a-adee-68a759ddc79a")
+		)
+		(pin "11"
+			(uuid "5ffc4aa3-1504-496b-b00c-7a0afc19aaf6")
+		)
+		(pin "8"
+			(uuid "e7e08256-4563-4b78-aa6c-25c9f814dc35")
+		)
+		(pin "14"
+			(uuid "1b499362-1a4d-48e0-9e1d-0ad66b1b0d01")
+		)
+		(pin "6"
+			(uuid "1fffabd0-0bfe-42b7-b4e7-48d6ce27c60b")
+		)
+		(pin "9"
+			(uuid "0a41cdd0-7ff7-48b7-aa5d-40a668eec1ea")
 		)
 		(instances
 			(project ""
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 40.64 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36c37d9e-6c27-44b1-b23f-d3f306c607ec")
-		(property "Reference" "R49"
-			(at 116.84 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 111.76 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d3521b9-d56a-46c0-a0dd-7025cc935cf6")
-		)
-		(pin "2"
-			(uuid "2e6ff9f3-b603-4038-8076-989568891343")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 53.34 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4806215b-28d1-43c1-b1d6-8b7dad8acd72")
-		(property "Reference" "R54"
-			(at 116.84 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 123.19 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37db351f-6a0f-4b16-becd-0abebda8bc78")
-		)
-		(pin "2"
-			(uuid "96327883-9fec-4400-9064-307e835c2069")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R54")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1986,16 +1352,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 128.27 35.56 270)
+		(at 144.78 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "526632f6-d16f-4e99-aa32-39de196a6417")
-		(property "Reference" "#PWR0111"
-			(at 121.92 35.56 0)
+		(uuid "ad8dc31c-6b32-46e7-b8c8-59848e53e022")
+		(property "Reference" "#PWR097"
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,17 +1370,16 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 124.46 35.5599 90)
+			(at 149.86 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 35.56 0)
+			(at 144.78 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +1388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 35.56 0)
+			(at 144.78 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +1397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 128.27 35.56 0)
+			(at 144.78 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,279 +1406,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d8eb3c3-c1a0-4ec2-bac0-bba14c9abbd2")
-		)
-		(instances
-			(project ""
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 48.26 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66b3ce08-997f-4023-8cd4-6bdf31f71d65")
-		(property "Reference" "R52"
-			(at 116.84 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 123.19 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 50.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7862f5c-4fe2-486e-b724-bcffe87456db")
-		)
-		(pin "2"
-			(uuid "b3cd1683-3b5e-445d-891f-fca59f992ada")
+			(uuid "e02ee89c-35b4-4c71-b9b3-19653eaee6ee")
 		)
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 60.96 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ac3692b-4ff2-499a-aea4-de693925a885")
-		(property "Reference" "R57"
-			(at 116.84 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 111.76 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82af3f7a-5eeb-4562-89ea-fb86e7551edf")
-		)
-		(pin "2"
-			(uuid "58a38c7e-4883-4915-b796-b04f2d89ea93")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 43.18 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ef24efc-aa10-487e-87bb-f3ab2c50b2a1")
-		(property "Reference" "R50"
-			(at 116.84 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 123.19 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b908c0ba-f3fa-4657-876d-3183ccead28a")
-		)
-		(pin "2"
-			(uuid "e0b18cb5-a827-4afc-8294-434df21770e0")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R50")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -2321,16 +1419,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 128.27 73.66 270)
+		(at 134.62 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8036eeb0-94d6-48cf-a2dd-9e2a607108b3")
-		(property "Reference" "#PWR0130"
-			(at 121.92 73.66 0)
+		(uuid "e4d1238e-15e0-43e2-97b3-33a0448bdb99")
+		(property "Reference" "#PWR096"
+			(at 128.27 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,17 +1437,16 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 124.46 73.6599 90)
+			(at 129.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 73.66 0)
+			(at 134.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +1455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 73.66 0)
+			(at 134.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +1464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 128.27 73.66 0)
+			(at 134.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,48 +1473,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "50622dce-76f3-439d-9122-252248112868")
+			(uuid "7fb8ead3-9a7e-449e-8a99-16d4909b4124")
 		)
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "#PWR0130")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 119.38 50.8 270)
-		(mirror x)
+		(lib_id "power:GNDREF")
+		(at 144.78 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c709b9c4-c3f2-4e90-a00a-4bd2f7ac138b")
-		(property "Reference" "R53"
-			(at 116.84 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 111.76 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 52.578 90)
+		(fields_autoplaced yes)
+		(uuid "f5cf3efd-30db-47c6-9d80-ed18a7dd95ff")
+		(property "Reference" "#PWR099"
+			(at 151.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,8 +1503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 119.38 50.8 0)
+		(property "Value" "GNDREF"
+			(at 149.86 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,8 +1512,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 119.38 50.8 0)
+		(property "Footprint" ""
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,8 +1521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 50.8 90)
+		(property "Datasheet" ""
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,8 +1530,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 50.8 90)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,282 +1540,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "95577a61-0cdc-4934-8306-a7423b27ae95")
-		)
-		(pin "2"
-			(uuid "b6bf1fdf-a48f-490f-bea4-49b49d6c3ca3")
+			(uuid "e450303b-fdc2-4273-a0c5-bba4812a35f1")
 		)
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 71.12 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfdb81d2-322d-4b02-b0e0-e67a61121d32")
-		(property "Reference" "R61"
-			(at 116.84 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 111.76 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e2aba15-1687-4133-81d2-3e249549c607")
-		)
-		(pin "2"
-			(uuid "ac080248-9774-4e9e-a1ce-435921d5b029")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 58.42 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4655b7f-909d-4458-8ef1-0e85ce0c3794")
-		(property "Reference" "R56"
-			(at 116.84 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 123.19 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b104567-26f4-4655-93c4-19b6d8dcebd2")
-		)
-		(pin "2"
-			(uuid "01eafdcc-8574-48d2-ac33-0ace19e22413")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 55.88 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff2b8630-7adb-4ca2-a861-788ab9e947f1")
-		(property "Reference" "R55"
-			(at 116.84 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30R"
-			(at 111.76 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 119.38 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 119.38 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-0733RL"
-			(at 119.38 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6819e10c-4b4a-46bc-9a3c-388e73b80b8f")
-		)
-		(pin "2"
-			(uuid "4aa7f6e2-9759-450c-9872-50656297b4ba")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/043c7265-3b77-421f-95b4-736198765ff0"
-					(reference "R55")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)

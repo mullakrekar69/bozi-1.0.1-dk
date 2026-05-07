@@ -1399,12 +1399,6 @@
 		(uuid "06c3e32b-7571-492d-b90f-2f0441472ad3")
 	)
 	(junction
-		(at 54.61 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09a0c1ad-6017-43c8-9e59-91e6dc7c42e6")
-	)
-	(junction
 		(at 128.27 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1427,6 +1421,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38d3dc1c-76b3-4674-98f1-dd920a7948cd")
+	)
+	(junction
+		(at 54.61 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "397ae48e-3076-4fdc-9575-6651feb8a74c")
 	)
 	(junction
 		(at 128.27 111.76)
@@ -1574,7 +1574,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 78.74) (xy 54.61 77.47)
+			(xy 54.61 80.01) (xy 54.61 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1621,6 +1621,16 @@
 			(type default)
 		)
 		(uuid "558105fd-7e6b-4184-8780-de83245fd15e")
+	)
+	(wire
+		(pts
+			(xy 54.61 69.85) (xy 54.61 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c4fa3a-aa3c-446a-a0dc-c33b8801c604")
 	)
 	(wire
 		(pts
@@ -1674,6 +1684,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 69.85) (xy 64.77 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb5bbb3-b221-4561-90c9-afc0a120a9b5")
+	)
+	(wire
+		(pts
 			(xy 128.27 106.68) (xy 128.27 109.22)
 		)
 		(stroke
@@ -1684,7 +1704,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 78.74) (xy 64.77 77.47)
+			(xy 64.77 80.01) (xy 64.77 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2927,7 +2947,7 @@
 			"YII="
 		)
 	)
-	(global_label "VDD_3V3"
+	(global_label "3V3_AO"
 		(shape input)
 		(at 95.25 76.2 180)
 		(fields_autoplaced yes)
@@ -2939,7 +2959,7 @@
 		)
 		(uuid "62eea735-f304-4061-a280-f562616d4c06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.161 76.2 0)
+			(at 85.3705 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2969,7 @@
 			)
 		)
 	)
-	(global_label "VDD_3V3"
+	(global_label "3V3_AO"
 		(shape input)
 		(at 50.8 69.85 180)
 		(fields_autoplaced yes)
@@ -2961,7 +2981,7 @@
 		)
 		(uuid "7c10aab4-5fca-44e0-9a61-1307c8b7f32f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.711 69.85 0)
+			(at 40.9205 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +2991,7 @@
 			)
 		)
 	)
-	(global_label "VDD_3V3"
+	(global_label "3V3_AO"
 		(shape input)
 		(at 95.25 69.85 180)
 		(fields_autoplaced yes)
@@ -2983,7 +3003,7 @@
 		)
 		(uuid "83fd7c98-ae33-4ef6-a8ce-bd1031bb842a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.161 69.85 0)
+			(at 85.3705 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3101,7 @@
 		(dnp no)
 		(uuid "027d82a0-055f-4633-b05b-716168e9ff01")
 		(property "Reference" "C18"
-			(at 102.87 88.9 0)
+			(at 104.14 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,8 +3109,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at 102.87 91.44 0)
+		(property "Value" "100nF"
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bozi:GRM18_T10"
 			(at 96.8248 92.71 0)
 			(effects
 				(font
@@ -3126,6 +3146,15 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R71H104KA93D"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -3225,7 +3254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "336922dd-fb59-4072-a22c-a2837dca0e5d")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 102.87 80.01 0)
 			(effects
 				(font
@@ -3233,7 +3262,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10k"
 			(at 102.87 82.55 0)
 			(effects
 				(font
@@ -3241,7 +3270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bozi:RESC1005X37N_edit"
 			(at 96.012 81.28 90)
 			(effects
 				(font
@@ -3268,7 +3297,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Yageo"
+		(property "Manufacturer_Name" "YAGEO"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0402FRD0710KL"
 			(at 97.79 81.28 0)
 			(effects
 				(font
@@ -3286,7 +3324,7 @@
 		(instances
 			(project ""
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/fe2e3118-e394-4128-93ab-3d29e7bd3fe9"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4deddc7e-0af7-40de-8fee-a0482cfc201c")
-		(property "Reference" "R2"
+		(property "Reference" "R8"
 			(at 102.87 63.5 90)
 			(effects
 				(font
@@ -3372,7 +3410,7 @@
 		(instances
 			(project ""
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/fe2e3118-e394-4128-93ab-3d29e7bd3fe9"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3454,7 +3492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e5e3199-afac-41d8-ab78-0c5b1f7ee3fd")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -3505,7 +3543,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/fe2e3118-e394-4128-93ab-3d29e7bd3fe9"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3513,16 +3551,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 54.61 73.66 270)
+		(at 54.61 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c40af7f-1803-4a55-ae7e-96a34b766d00")
 		(property "Reference" "D1"
-			(at 57.15 72.3899 90)
+			(at 57.15 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,8 +3567,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at 57.15 74.9299 90)
+		(property "Value" "TVS 22VWM 41VC"
+			(at 35.56 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,8 +3576,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 54.61 73.66 0)
+		(property "Footprint" "bozi:ESDA25P351U1M_edit"
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 73.66 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3595,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 54.61 73.66 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3604,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 54.61 73.66 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3613,25 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 54.61 73.66 0)
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 54.61 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESDA25P35-1U1M"
+			(at 54.61 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +3664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f1cb09-4b02-49c0-b2bf-5ea52f807368")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 120.65 83.82 0)
 			(effects
 				(font
@@ -3660,7 +3715,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/fe2e3118-e394-4128-93ab-3d29e7bd3fe9"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3676,22 +3731,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f75a910-ccdf-4257-8f50-12d42ac4d142")
-		(property "Reference" "C17"
-			(at 125.73 73.66 0)
+		(property "Reference" "C16"
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 125.73 76.2 0)
+			(at 114.3 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "bozi:GRM18_T10"
@@ -3748,7 +3803,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/fe2e3118-e394-4128-93ab-3d29e7bd3fe9"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3756,7 +3811,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 54.61 78.74 0)
+		(at 54.61 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3764,8 +3819,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfde4c68-68ea-400e-b70c-f7915659d0f8")
-		(property "Reference" "#PWR021"
-			(at 54.61 85.09 0)
+		(property "Reference" "#PWR023"
+			(at 54.61 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +3829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 83.82 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +3837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 78.74 0)
+			(at 54.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +3846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 78.74 0)
+			(at 54.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 54.61 78.74 0)
+			(at 54.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3869,7 @@
 		(instances
 			(project ""
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/fe2e3118-e394-4128-93ab-3d29e7bd3fe9"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3822,7 +3877,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 64.77 78.74 0)
+		(at 64.77 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3830,8 +3885,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4f71c72-490b-4a45-9737-1957c3fc3b5c")
-		(property "Reference" "#PWR022"
-			(at 64.77 85.09 0)
+		(property "Reference" "#PWR024"
+			(at 64.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 83.82 0)
+			(at 64.77 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 78.74 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 78.74 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 64.77 78.74 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3935,7 @@
 		(instances
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/fe2e3118-e394-4128-93ab-3d29e7bd3fe9"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4141,22 +4196,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eca62c54-d4b5-4d9c-8e68-56b61fe15f8a")
-		(property "Reference" "C16"
-			(at 116.84 73.66 0)
+		(property "Reference" "C15"
+			(at 105.41 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF"
-			(at 116.84 76.2 0)
+			(at 105.41 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "bozi:GRM18_T20"
@@ -4213,7 +4268,7 @@
 		(instances
 			(project ""
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/fe2e3118-e394-4128-93ab-3d29e7bd3fe9"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4221,7 +4276,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 73.66 0)
+		(at 64.77 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4229,8 +4284,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5796a8b-c885-4ed5-9cd3-e1c0bd892951")
-		(property "Reference" "C15"
-			(at 68.58 72.3899 0)
+		(property "Reference" "C17"
+			(at 68.58 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4294,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 68.58 74.9299 0)
+			(at 68.58 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4303,7 @@
 			)
 		)
 		(property "Footprint" "bozi:GRT18_T15"
-			(at 65.7352 77.47 0)
+			(at 65.7352 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +4312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 73.66 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4321,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 64.77 73.66 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4330,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 64.77 73.66 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4339,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRT188R61A106KE13D"
-			(at 64.77 73.66 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4356,7 @@
 		(instances
 			(project ""
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/fe2e3118-e394-4128-93ab-3d29e7bd3fe9"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
