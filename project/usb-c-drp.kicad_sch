@@ -1098,293 +1098,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_DGS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_DGS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/gate/source"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_DGS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_DGS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bozi:ECMF02-2AMX6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1619,6 +1332,441 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bozi:STL11N3LLH6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "STL11N3LLH6"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "STL20N6F7"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl11n3llh6.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-channel 30 V, 6 m typ., 11 A STripFET H6 Power MOSFET in a PowerFLAT 3.3x3.3 package"
+				(at 7.366 25.654 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "STL11N3LLH6"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-STL11N3LLH6"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL11N3LLH6?qs=CBOTe0%252BbgkbnVaR%2FX25%2FKw%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "STL11N3LLH6"
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stl11n3llh6/stmicroelectronics?region=nac"
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "STL11N3LLH6_0_1"
+				(polyline
+					(pts
+						(xy 12.192 -3.683) (xy 12.192 -7.493)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -3.302) (xy 12.7 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 -6.096)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -6.858) (xy 12.7 -7.874)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.366) (xy 15.24 -7.366) (xy 15.24 -3.81) (xy 12.7 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.954 -5.588) (xy 13.97 -5.207) (xy 13.97 -5.969) (xy 12.954 -5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 13.589 -5.588)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.478 -3.048) (xy 14.478 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 14.478 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 14.478 -7.366)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.478 -8.128) (xy 14.478 -5.588) (xy 12.7 -5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.859 -5.207) (xy 15.621 -5.207)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -5.207) (xy 14.859 -5.842) (xy 15.621 -5.842) (xy 15.24 -5.207)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "STL11N3LLH6_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 19.05 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 7.62 270)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -20.32 90)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 7.62 270)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -20.32 90)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 7.62 270)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -20.32 90)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 7.62 270)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2499,6 +2647,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Switch orientation cause it \nfits better in the PCB design\n"
+		(exclude_from_sim no)
+		(at 58.42 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60cf9b51-7e81-4897-93cf-458d4326b048")
+	)
 	(text "\"GATE DRIVER\""
 		(exclude_from_sim no)
 		(at 222.25 90.17 0)
@@ -2522,22 +2680,34 @@
 		(uuid "0e6da36c-1eb2-4d15-87b7-705acd13f5ac")
 	)
 	(junction
+		(at 228.6 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e714743-451b-4af7-8859-4bad85e07c7b")
+	)
+	(junction
+		(at 200.66 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18e9e31e-07ce-4c44-ac00-ee409b3f442e")
+	)
+	(junction
 		(at 251.46 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fa7a4cb-5376-4ac3-b70c-12d451041b5a")
 	)
 	(junction
-		(at 214.63 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "223db8dc-79e6-46b0-9bc7-e2f64b9b4582")
-	)
-	(junction
 		(at 182.88 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24d148e9-c749-402c-b82a-59600f9c7c2e")
+	)
+	(junction
+		(at 232.41 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27424a6c-a35f-4d5f-8e5b-322bcc48e4ac")
 	)
 	(junction
 		(at 232.41 105.41)
@@ -2576,6 +2746,12 @@
 		(uuid "64a589f1-58d9-44ef-9aa3-f91cd3cfbdd6")
 	)
 	(junction
+		(at 214.63 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b635021-5dfd-43a7-854e-b7d891247729")
+	)
+	(junction
 		(at 241.3 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2586,6 +2762,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7282123a-33b9-4588-9c54-7116f95903bb")
+	)
+	(junction
+		(at 228.6 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a7b9a8f-d550-405b-b62f-96a359dfeede")
 	)
 	(junction
 		(at 83.82 87.63)
@@ -2610,6 +2792,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8941bfd9-6088-44de-9e27-37fd64d0a2f5")
+	)
+	(junction
+		(at 200.66 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cb967d9-2ce2-4148-ab9b-28820231b425")
 	)
 	(junction
 		(at 119.38 80.01)
@@ -2648,6 +2836,12 @@
 		(uuid "a35b8a8c-00be-4876-96c3-d8d18ad481fb")
 	)
 	(junction
+		(at 196.85 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad8ccc68-b416-4c05-9a3f-5243ca623fb4")
+	)
+	(junction
 		(at 119.38 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2672,6 +2866,12 @@
 		(uuid "c36bcffd-fcbf-4c6c-9259-24bec84ed86b")
 	)
 	(junction
+		(at 200.66 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8730135-9f5b-4c23-b7a7-7fc6595f46db")
+	)
+	(junction
 		(at 199.39 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2689,24 +2889,12 @@
 		(color 0 0 0 0)
 		(uuid "d0daf428-7b5d-4b10-a1eb-5be628bc7bc6")
 	)
-	(junction
-		(at 201.93 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d29acff4-6353-409b-af49-19190e3f4018")
-	)
-	(junction
-		(at 232.41 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f93d0b0c-86e2-498c-982e-a1ae7d52a33d")
-	)
 	(no_connect
 		(at 83.82 100.33)
 		(uuid "1a185431-d975-44b0-a8d7-027accbd5884")
 	)
 	(no_connect
-		(at 71.12 85.09)
+		(at 71.12 92.71)
 		(uuid "239dd99a-8d79-42af-9828-ec76cb97f536")
 	)
 	(no_connect
@@ -2901,7 +3089,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 77.47) (xy 201.93 77.47)
+			(xy 182.88 77.47) (xy 196.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3041,6 +3229,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 77.47) (xy 232.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d39f83-4230-4866-ac12-70e5ae5bf932")
+	)
+	(wire
+		(pts
 			(xy 146.05 77.47) (xy 146.05 81.28)
 		)
 		(stroke
@@ -3048,6 +3246,16 @@
 			(type default)
 		)
 		(uuid "478013b8-f3b2-401f-a090-7306eb0bc721")
+	)
+	(wire
+		(pts
+			(xy 200.66 69.85) (xy 200.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48347fa4-cd72-4f58-99e7-d330df504ebd")
 	)
 	(wire
 		(pts
@@ -3101,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 87.63) (xy 201.93 86.36)
+			(xy 196.85 87.63) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3171,16 +3379,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 77.47) (xy 232.41 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a47099f-e984-422e-a5c6-ef0280a4431b")
-	)
-	(wire
-		(pts
 			(xy 127 93.98) (xy 127 118.11)
 		)
 		(stroke
@@ -3211,6 +3409,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 86.36) (xy 214.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80347a9b-c98a-4a78-b032-df01be9e4160")
+	)
+	(wire
+		(pts
 			(xy 119.38 77.47) (xy 119.38 80.01)
 		)
 		(stroke
@@ -3218,16 +3426,6 @@
 			(type default)
 		)
 		(uuid "8958b10b-5a86-4a1f-8a15-cf2ae0a61968")
-	)
-	(wire
-		(pts
-			(xy 214.63 85.09) (xy 214.63 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dbe769e-5de9-411e-915e-b251128f4aba")
 	)
 	(wire
 		(pts
@@ -3268,6 +3466,26 @@
 			(type default)
 		)
 		(uuid "9b0ddce5-8804-4fcb-a4af-a021ddc927fe")
+	)
+	(wire
+		(pts
+			(xy 196.85 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b84a7f2-38e9-4db8-9634-0177815c5c15")
+	)
+	(wire
+		(pts
+			(xy 200.66 74.93) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c05718b-6329-4480-beae-7eb127e8a926")
 	)
 	(wire
 		(pts
@@ -3321,13 +3539,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 77.47) (xy 209.55 77.47)
+			(xy 228.6 72.39) (xy 228.6 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b11b7deb-049f-4b79-b3e6-ec35c3038d5a")
+		(uuid "a8b8a599-d285-456b-9fb3-d572ae27c968")
 	)
 	(wire
 		(pts
@@ -3348,6 +3566,26 @@
 			(type default)
 		)
 		(uuid "be9ae360-02c5-439d-98cb-ceb9c348edfc")
+	)
+	(wire
+		(pts
+			(xy 200.66 72.39) (xy 200.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf996686-97fe-414e-84be-ac504e059991")
+	)
+	(wire
+		(pts
+			(xy 228.6 74.93) (xy 228.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33e7310-b570-4f5a-bec4-71365f634239")
 	)
 	(wire
 		(pts
@@ -3391,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 77.47) (xy 201.93 78.74)
+			(xy 196.85 77.47) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3561,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 87.63) (xy 214.63 87.63)
+			(xy 196.85 87.63) (xy 214.63 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3920,7 +4158,8 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 45.72 85.09 270)
+		(at 45.72 92.71 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3929,7 +4168,7 @@
 		(fields_autoplaced yes)
 		(uuid "06ad661c-a93c-4f45-8808-eafc64d778f4")
 		(property "Reference" "#PWR082"
-			(at 39.37 85.09 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +4177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 85.0899 90)
+			(at 41.91 92.7101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 85.09 0)
+			(at 45.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +4196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 85.09 0)
+			(at 45.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +4205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 45.72 85.09 0)
+			(at 45.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 119.38 134.62 0)
 			(effects
 				(font
@@ -4427,7 +4666,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 201.93 82.55 180)
+		(at 196.85 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4436,7 +4675,7 @@
 		(fields_autoplaced yes)
 		(uuid "25828a54-22b1-4863-9f3f-a4c1cb24a03f")
 		(property "Reference" "C86"
-			(at 205.74 81.2799 0)
+			(at 200.66 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4684,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 205.74 83.8199 0)
+			(at 200.66 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4693,7 @@
 			)
 		)
 		(property "Footprint" "bozi:GRM18_T10"
-			(at 200.9648 78.74 0)
+			(at 195.8848 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 82.55 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4711,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.93 82.55 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4720,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4729,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4738,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4747,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4756,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4765,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4774,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4783,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4792,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4801,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM1885C1H222JA01D"
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4810,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4819,7 @@
 			)
 		)
 		(property "3DMODEL" ""
-			(at 201.93 82.55 90)
+			(at 196.85 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4828,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 201.93 82.55 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +6011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bozi:GRM03T09"
+		(property "Footprint" "bozi:GRM03_T09"
 			(at 147.0152 88.9 0)
 			(effects
 				(font
@@ -6380,6 +6619,164 @@
 		)
 	)
 	(symbol
+		(lib_id "bozi:STL11N3LLH6")
+		(at 208.28 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ad682f-9b3f-4af8-a630-b4f43e8d5dda")
+		(property "Reference" "Q3"
+			(at 214.63 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STL11N3LLH6"
+			(at 214.63 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bozi:STL20N6F7_edit"
+			(at 303.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl11n3llh6.pdf"
+			(at 403.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel 30 V, 6 m typ., 11 A STripFET H6 Power MOSFET in a PowerFLAT 3.3x3.3 package"
+			(at 182.626 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 603.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 703.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STL11N3LLH6"
+			(at 803.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STL11N3LLH6"
+			(at 903.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL11N3LLH6?qs=CBOTe0%252BbgkbnVaR%2FX25%2FKw%3D%3D"
+			(at 1003.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "STL11N3LLH6"
+			(at 1103.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stl11n3llh6/stmicroelectronics?region=nac"
+			(at 1203.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0e289269-1a14-4e56-af04-d6ed5ac39956")
+		)
+		(pin "4"
+			(uuid "97d9f60f-c9f9-479d-8156-77b8581c0ac3")
+		)
+		(pin "1"
+			(uuid "d68d998f-6dcd-41c3-b925-4399eed9bb4a")
+		)
+		(pin "7"
+			(uuid "7a41a653-f41e-49ae-9b4d-5275e490a722")
+		)
+		(pin "6"
+			(uuid "78a3a0dc-9707-4c29-8c7f-8e715f345338")
+		)
+		(pin "5"
+			(uuid "a3dc47ca-e4a4-4f2f-824d-ba82b5e7f6f4")
+		)
+		(pin "2"
+			(uuid "406513fa-88e3-4fc5-9ac0-9e34d4acba6c")
+		)
+		(pin "8"
+			(uuid "337f72b6-3235-435d-83c3-f5d877ede729")
+		)
+		(instances
+			(project ""
+				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/b2e22041-582b-4679-ad4a-a125db87de65"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 251.46 81.28 0)
 		(unit 1)
@@ -6757,8 +7154,7 @@
 	)
 	(symbol
 		(lib_id "bozi:ECMF02-2AMX6")
-		(at 45.72 90.17 0)
-		(mirror x)
+		(at 45.72 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6766,7 +7162,7 @@
 		(dnp no)
 		(uuid "8dd5cb14-720f-4af5-ae55-d959a5205c71")
 		(property "Reference" "IC7"
-			(at 58.42 97.79 0)
+			(at 58.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,15 +7170,15 @@
 			)
 		)
 		(property "Value" "ECMF02-2AMX6"
-			(at 58.42 95.25 0)
+			(at 58.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SON50P150X170X55-6N-D"
-			(at 67.31 -4.75 0)
+		(property "Footprint" "bozi:SON50P150X170X55-6N-D_edit"
+			(at 67.31 182.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +7188,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ecmf02-2amx6.pdf"
-			(at 67.31 -104.75 0)
+			(at 67.31 282.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +7198,7 @@
 			)
 		)
 		(property "Description" "Common Mode Filter & ESD Prot. USB uQFN6 STMicroelectronics ECMF02 Series, Signal Filter, 200mA uQFN SMD, Flat Contact Termination, 1.8 x 1.6 x 0.5mm"
-			(at 45.72 90.17 0)
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,7 +7207,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 67.31 -304.75 0)
+			(at 67.31 482.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +7217,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 67.31 -404.75 0)
+			(at 67.31 582.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +7227,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ECMF02-2AMX6"
-			(at 67.31 -504.75 0)
+			(at 67.31 682.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +7237,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-ECMF02-2AMX6"
-			(at 67.31 -604.75 0)
+			(at 67.31 782.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +7247,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ECMF02-2AMX6?qs=raAh8RbVwI65u5gmT42%2Flg%3D%3D"
-			(at 67.31 -704.75 0)
+			(at 67.31 882.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +7257,7 @@
 			)
 		)
 		(property "Arrow Part Number" "ECMF02-2AMX6"
-			(at 67.31 -804.75 0)
+			(at 67.31 982.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6871,7 +7267,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ecmf02-2amx6/stmicroelectronics?utm_currency=USD&region=nac"
-			(at 67.31 -904.75 0)
+			(at 67.31 1082.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P300X300X100-13N-D"
+		(property "Footprint" "bozi:QFN50P300X300X100-13N-D_edit"
 			(at 238.76 188.9 0)
 			(effects
 				(font
@@ -8252,95 +8648,6 @@
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/b2e22041-582b-4679-ad4a-a125db87de65"
 					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DGS")
-		(at 214.63 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd390499-5fe3-4bf6-a5bc-ede4d30803d6")
-		(property "Reference" "Q1"
-			(at 214.63 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STL11N3LLH6"
-			(at 214.63 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bozi:STL20N6F7_edit"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/gate/source"
-			(at 214.63 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 214.63 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "STL11N3LLH6"
-			(at 214.63 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86163fd5-1d62-4d79-ad99-53e319ad050a")
-		)
-		(pin "1"
-			(uuid "12ce9738-3afa-45d4-aeea-395f684561cf")
-		)
-		(pin "3"
-			(uuid "ebdfb33f-6468-4b80-9411-d7d76df35c6b")
-		)
-		(instances
-			(project ""
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/b2e22041-582b-4679-ad4a-a125db87de65"
-					(reference "Q1")
 					(unit 1)
 				)
 			)

@@ -3847,12 +3847,6 @@
 		(uuid "743c5e85-8d2e-4a2e-af93-f77b1949b401")
 	)
 	(junction
-		(at 358.14 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78677b8f-3d66-4b0c-8a6e-dced4b09dc84")
-	)
-	(junction
 		(at 57.15 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4055,6 +4049,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd830b5b-ed59-4538-8a4a-aa6a27090a55")
+	)
+	(junction
+		(at 367.03 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bda3c265-198a-4afa-a8fd-28f893d2f989")
 	)
 	(junction
 		(at 66.04 80.01)
@@ -5160,16 +5160,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 104.14) (xy 358.14 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7f3286-1abf-433b-9151-fd7d6ef2be26")
-	)
-	(wire
-		(pts
 			(xy 43.18 185.42) (xy 48.26 185.42)
 		)
 		(stroke
@@ -5260,7 +5250,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 116.84) (xy 369.57 116.84)
+			(xy 365.76 116.84) (xy 367.03 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5440,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 104.14) (xy 358.14 104.14)
+			(xy 344.17 104.14) (xy 360.68 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6407,6 +6397,16 @@
 			(type default)
 		)
 		(uuid "e3551c11-3dcd-4207-86ce-91aae7101f9f")
+	)
+	(wire
+		(pts
+			(xy 367.03 116.84) (xy 369.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e493d699-c57c-4c0e-b3fd-f33372503bcf")
 	)
 	(wire
 		(pts
@@ -7621,7 +7621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 90.17 213.36 0)
 			(effects
 				(font
@@ -11639,7 +11639,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 356.87 116.84 0)
+		(at 367.03 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11647,7 +11647,7 @@
 		(dnp no)
 		(uuid "42718642-a10d-4214-b8d6-365f42a1f677")
 		(property "Reference" "TP11"
-			(at 355.346 115.824 0)
+			(at 365.506 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11656,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 354.33 114.8079 0)
+			(at 364.49 114.8079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11666,7 +11666,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 361.95 116.84 0)
+			(at 372.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11675,7 +11675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 361.95 116.84 0)
+			(at 372.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11684,7 +11684,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11693,7 +11693,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,7 +11702,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,7 +11711,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,7 +11720,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +11729,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11738,7 +11738,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +11747,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11756,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11765,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11774,7 +11774,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,7 +11783,7 @@
 			)
 		)
 		(property "3DMODEL" ""
-			(at 356.87 116.84 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +12009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 171.45 214.63 0)
 			(effects
 				(font
@@ -12263,7 +12263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 113.03 213.36 0)
 			(effects
 				(font
@@ -14821,7 +14821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOTFL50P160X60-8N"
+		(property "Footprint" "bozi:SOTFL50P160X60-8N_edit"
 			(at 121.92 350.19 0)
 			(effects
 				(font
@@ -15225,7 +15225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 48.26 213.36 0)
 			(effects
 				(font
@@ -15700,7 +15700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 101.6 213.36 0)
 			(effects
 				(font
@@ -16015,7 +16015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON95P300X300X100-7N-D"
+		(property "Footprint" "bozi:SON95P300X300X100-7N-D_edit"
 			(at 354.33 289.23 0)
 			(effects
 				(font
@@ -18845,7 +18845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 137.16 208.28 0)
 			(effects
 				(font
@@ -19172,7 +19172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA9C40P3X3_147X145X69"
+		(property "Footprint" "bozi:BGA9C40P3X3_147X145X69_edit"
 			(at 166.37 289.23 0)
 			(effects
 				(font
@@ -23772,7 +23772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bozi:THRMC1005X55N"
+		(property "Footprint" "bozi:THRMC1005X55N_edit"
 			(at 137.16 193.04 0)
 			(effects
 				(font
@@ -24758,173 +24758,6 @@
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/bb250b4f-c5d5-46d6-a17d-e2b7a9711818"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 358.14 104.14 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1bc0b56-9a14-4e0a-a90f-209d4786d23c")
-		(property "Reference" "TP9"
-			(at 358.394 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 360.68 102.1079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 353.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "3DMODEL" ""
-			(at 358.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d671485-e63c-4e67-86fe-80c2e757de44")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/bb250b4f-c5d5-46d6-a17d-e2b7a9711818"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -26481,7 +26314,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 287.02 53.34 270)
+		(at 287.02 53.34 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26489,7 +26323,7 @@
 		(dnp no)
 		(uuid "fd2d81c4-a200-4542-a01c-6fdcf186ade1")
 		(property "Reference" "C44"
-			(at 288.2901 57.15 0)
+			(at 285.7499 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26499,7 +26333,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 283.972 51.562 90)
+			(at 290.068 51.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26507,7 +26341,7 @@
 			)
 		)
 		(property "Footprint" "bozi:GRT18_T15"
-			(at 283.21 54.3052 0)
+			(at 290.83 54.3052 0)
 			(effects
 				(font
 					(size 1.27 1.27)

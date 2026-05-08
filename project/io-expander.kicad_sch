@@ -3508,7 +3508,7 @@
 		(uuid "0aef266a-dbc8-41e3-a619-d0a28d69dbf8")
 	)
 	(label "LD1"
-		(at 100.33 59.69 0)
+		(at 100.33 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3518,7 +3518,7 @@
 		(uuid "23bc4607-afc8-4428-8589-bce05271e654")
 	)
 	(label "LD2"
-		(at 100.33 62.23 0)
+		(at 100.33 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3538,7 +3538,7 @@
 		(uuid "432dd134-c898-43dc-a80d-971f65ec1b35")
 	)
 	(label "LD3"
-		(at 100.33 85.09 0)
+		(at 100.33 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3548,7 +3548,7 @@
 		(uuid "59b5a534-a42a-4040-a190-b15749fe0903")
 	)
 	(label "DIP1"
-		(at 100.33 82.55 0)
+		(at 100.33 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3689,7 +3689,7 @@
 	)
 	(hierarchical_label "GPB1"
 		(shape input)
-		(at 100.33 69.85 0)
+		(at 100.33 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3711,7 +3711,7 @@
 	)
 	(hierarchical_label "GPB2"
 		(shape input)
-		(at 100.33 72.39 0)
+		(at 100.33 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3755,7 +3755,7 @@
 	)
 	(hierarchical_label "GPB5"
 		(shape input)
-		(at 100.33 80.01 0)
+		(at 100.33 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3931,7 +3931,7 @@
 	)
 	(hierarchical_label "GPB3"
 		(shape input)
-		(at 100.33 74.93 0)
+		(at 100.33 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3997,7 +3997,7 @@
 	)
 	(hierarchical_label "GPB4"
 		(shape input)
-		(at 100.33 77.47 0)
+		(at 100.33 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4019,7 +4019,7 @@
 	)
 	(hierarchical_label "GPB0"
 		(shape input)
-		(at 100.33 67.31 0)
+		(at 100.33 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4030,7 +4030,7 @@
 	)
 	(hierarchical_label "GPA5"
 		(shape input)
-		(at 100.33 57.15 0)
+		(at 100.33 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)

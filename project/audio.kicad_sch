@@ -1764,16 +1764,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 201.93) (xy 203.2 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a9e90ef-dcde-4617-b039-1c75f423f7b1")
-	)
-	(wire
-		(pts
 			(xy 259.08 199.39) (xy 266.7 199.39)
 		)
 		(stroke
@@ -2024,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 201.93) (xy 176.53 201.93)
+			(xy 172.72 201.93) (xy 203.2 201.93)
 		)
 		(stroke
 			(width 0)
@@ -2124,7 +2114,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 204.47) (xy 186.69 204.47)
+			(xy 172.72 204.47) (xy 203.2 204.47)
 		)
 		(stroke
 			(width 0)
@@ -2251,16 +2241,6 @@
 			(type default)
 		)
 		(uuid "ba43f478-1126-41ea-8b10-4540ec4f61c7")
-	)
-	(wire
-		(pts
-			(xy 194.31 204.47) (xy 203.2 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcb14d36-ddb4-4ced-8955-ac92596906e7")
 	)
 	(wire
 		(pts
@@ -6659,92 +6639,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 204.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b59e4c6c-12ba-437e-a0c4-72a26b1c788f")
-		(property "Reference" "R58"
-			(at 190.5 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 190.5 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 190.5 206.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 190.5 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-070RL"
-			(at 190.5 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe569078-ce8a-477d-8d30-e989411c303e")
-		)
-		(pin "1"
-			(uuid "05107025-f9e8-4783-b795-04a454bce949")
-		)
-		(instances
-			(project "project"
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/e5d9d73d-3ae6-40b8-8194-94dccca16526"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 151.13 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6890,92 +6784,6 @@
 			(project "project"
 				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/e5d9d73d-3ae6-40b8-8194-94dccca16526"
 					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 201.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d842d9c5-3c47-4772-a280-7b8e1ef277ef")
-		(property "Reference" "R57"
-			(at 180.34 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 180.34 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bozi:RESC1005X37N_edit"
-			(at 180.34 203.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 180.34 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402JR-070RL"
-			(at 180.34 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "973b3c0e-a2f8-46b6-bc11-56b29b66ae09")
-		)
-		(pin "1"
-			(uuid "fc340064-6806-4f9a-b530-69b412ceccc1")
-		)
-		(instances
-			(project ""
-				(path "/7afeae28-8837-445b-b53a-5d89eb16eb45/e5d9d73d-3ae6-40b8-8194-94dccca16526"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -7418,7 +7226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bozi:SJ23574ASMTTR"
+		(property "Footprint" "bozi:SJ23574ASMTTR_edit"
 			(at 128.27 147.32 0)
 			(effects
 				(font
@@ -7509,7 +7317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X100-33N-D"
+		(property "Footprint" "bozi:QFN50P500X500X100-33N-D_edit"
 			(at 257.81 235.89 0)
 			(effects
 				(font
